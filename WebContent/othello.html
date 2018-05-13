@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>オセロやろうぜ！</title>
+	<link rel="stylesheet" type="text/css" href="css/board.css">
+</head>
+<body>
+	<script type="text/javascript" src="js/othello.js"></script>
+	<div>あなたが先手です(黒)</div>
+	<!-- 盤面を構成する隠し要素 -->
+	<div style="display:none">
+		<div id="cell" class="square"><div class="cell"></div></div>
+		<div id="black" class="square"><img class="block" src="img/black.png"></img></div>
+		<div id="white" class="square"><img class="block" src="img/white.png"></img></div>
+	</div>
+	<!-- 盤面を表示 -->
+	<div id="board"></div>
+</body>
+</html>
